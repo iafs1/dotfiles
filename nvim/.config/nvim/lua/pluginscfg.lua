@@ -33,8 +33,7 @@ require("nvim-tree").setup()
 -- Enable `lukas-reineke/indent-blankline.nvim`
 -- See `:help indent_blankline.txt`
 require('indent_blankline').setup {
-  char = '?',
-  show_trailing_blankline_indent = false,
+  show_end_of_line = true,
 }
 
 -- Gitsigns
@@ -377,10 +376,6 @@ require'bufferline'.setup {
   --  - left-click: go to buffer
   --  - middle-click: delete buffer
   clickable = true,
-
-  -- Excludes buffers from the tabline
-  exclude_ft = {'javascript'},
-  exclude_name = {'package.json'},
 
   -- Enable/disable icons
   -- if set to 'numbers', will show buffer index in the tabline

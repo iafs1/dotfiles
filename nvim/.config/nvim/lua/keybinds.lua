@@ -18,5 +18,5 @@ vim.keymap.set('n', '<leader>r', '<Cmd>%SnipRun<CR>')
 vim.keymap.set('n', '<leader>n', '<Cmd>NvimTreeToggle<CR>')
 
 -- Tab cycle
-vim.keymap.set('n', '<Tab>', '<Cmd>BufferPrevious<CR>')
-vim.keymap.set('n', '<S-Tab>', '<Cmd>BufferNext<CR>')
+vim.keymap.set('n', '<Tab>', '<Cmd>BufferNext<CR>')
+vim.keymap.set('n', '<S-Tab>', '<Cmd>BufferPrevious<CR>')
